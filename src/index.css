@@ -1,0 +1,25 @@
+/* MEDIA QUERY FOR PHONES */
+@media screen and (max-width:600px) {
+    #app {
+        width: 100vw;
+        height: 100vh;
+        padding: 2rem 1rem;
+    }
+    .notes__header{
+        width: 100%;
+        padding: 2rem 1rem;
+        position: fixed;
+        top: 0;
+        left: o;
+    }
+    .notes__container {
+        margin-top: 5rem;
+        gap: 1rem;
+    }
+    .btn.add__btn {
+        padding: 15rem;
+        font-size: 1.5rem;
+        bottom: 6%;
+        right: 2rem;
+    }
+}
